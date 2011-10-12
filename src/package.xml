@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case Age in Business Hours</fullName>
+    <types>
+        <members>CalculateBusinessHoursAgesTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CalculateBusinessHoursAges</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Case_Age_In_Business_Hours</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Case.Case_Age_In_Business_Hours__c</members>
+        <members>Case.Last_Status_Change__c</members>
+        <members>Case.Time_With_Customer__c</members>
+        <members>Case.Time_With_Support__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Stop_Status__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Stop_Status__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Stop_Status__c-Stop Status Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Stop_Status__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Customer_Service_Reports</members>
+        <members>Customer_Service_Reports/CaseAgeInBusinessHours</members>
+        <name>Report</name>
+    </types>
+    <version>20.0</version>
+</Package>

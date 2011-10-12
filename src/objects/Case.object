@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Case_Age_In_Business_Hours__c</fullName>
+        <description>The total case age in business hours from open to close.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total case age in business hours from open to close.</inlineHelpText>
+        <label>Case Age In Business Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Status_Change__c</fullName>
+        <description>Stores the last time the status changed -- used by the Case Business Hours Tools package.</description>
+        <externalId>false</externalId>
+        <label>Last Status Change</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Time_With_Customer__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>The time in business hours that this case spent in the hands of the customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The time in business hours that this case spent in the hands of the customer.</inlineHelpText>
+        <label>Time With Customer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Time_With_Support__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>The time in business hours that this case spent with support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The time in business hours that this case spent with support.</inlineHelpText>
+        <label>Time With Support</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
