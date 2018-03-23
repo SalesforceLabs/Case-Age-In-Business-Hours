@@ -1,4 +1,4 @@
-public class CalculateBusinessHoursAgesTest {
+@isTest public class CalculateBusinessHoursAgesTest {
     public static testMethod void testBusinessHoursBucketer() {
         Stop_Status__c ss = new Stop_Status__c(Name = 'On Hold');
         insert ss;
